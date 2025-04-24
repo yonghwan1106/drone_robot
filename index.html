@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하늘과 땅의 조화, 드론-로봇 하이브리드 배송 네트워크</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="back_to_top.css">
+    <link rel="stylesheet" href="section_nav.css">
+    <link rel="stylesheet" href="sticky_nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-plane"></i>
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <h1><a href="#" class="main-title">하늘과 땅의 조화, 드론-로봇 하이브리드 배송 네트워크</a></h1>
+            <div class="badge">혁신</div>
+            <p class="subtitle">기존에 없던 새로운 모빌리티 수단·서비스 등</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#regulation">규제사항</a></li>
+                <li><a href="#overview">개요</a></li>
+                <li><a href="#problems">현황 및 문제점</a></li>
+                <li><a href="#solutions">개선방안</a></li>
+                <li><a href="#benefits">기대효과</a></li>
+                <li><a href="#conclusion">결론</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 규제사항 섹션 -->
+        <section class="regulation-section" id="regulation">
+            <h2>규제사항</h2>
+            <div class="regulation-container">
+                <div class="regulation-item">
+                    <div class="regulation-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <div class="regulation-text">
+                        <h3>도로교통법 제13조</h3>
+                        <p>보도 통행 및 도로 횡단 관련 규정 조정 필요</p>
+                    </div>
+                </div>
+                <div class="regulation-item">
+                    <div class="regulation-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="regulation-text">
+                        <h3>항공안전법 제127조, 제128조</h3>
+                        <p>드론 비행 제한 관련 규정 완화 필요</p>
+                    </div>
+                </div>
+                <div class="regulation-item">
+                    <div class="regulation-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="regulation-text">
+                        <h3>생활물류서비스산업발전법</h3>
+                        <p>로봇 및 드론 활용 배송 관련 규정 정비 필요</p>
+                    </div>
+                </div>
+                <div class="regulation-item">
+                    <div class="regulation-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="regulation-text">
+                        <h3>정보통신망법</h3>
+                        <p>로봇-드론 간 통신 보안 관련 규정 정비 필요</p>
+                    </div>
+                </div>
+                <div class="regulation-item">
+                    <div class="regulation-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div class="regulation-text">
+                        <h3>개인정보보호법</h3>
+                        <p>드론 카메라 촬영에 따른 개인정보 처리 규정 정비 필요</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 개요 섹션 -->
+        <section class="overview-section" id="overview">
+            <h2>개요</h2>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <p>본 제안은 지상의 자율주행 배송 로봇과 공중의 드론을 유기적으로 결합한 복합 배송 시스템을 구축하는 혁신적인 모빌리티 서비스입니다. 드론은 주요 물류 거점에서 도심 내 소규모 마이크로 허브까지 신속하게 물품을 운송하고, 자율주행 로봇은 마이크로 허브에서 최종 소비자까지 라스트마일 배송을 담당합니다.</p>
+                    <p>이를 통해 각 기술의 장점을 극대화하고 단점을 상호 보완하여 더 빠르고, 효율적이며, 친환경적인 배송 서비스를 제공할 수 있습니다.</p>
+                </div>
+                <div class="overview-diagram">
+                    <div class="delivery-system">
+                        <div class="system-node">
+                            <div class="node-icon warehouse">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <p>물류 거점</p>
+                        </div>
+                        <div class="system-arrow drone-path">
+                            <div class="drone-icon">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                        <div class="system-node">
+                            <div class="node-icon microhub">
+                                <i class="fas fa-store-alt"></i>
+                            </div>
+                            <p>마이크로 허브</p>
+                        </div>
+                        <div class="system-arrow robot-path">
+                            <div class="robot-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                        <div class="system-node">
+                            <div class="node-icon customer">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <p>최종 소비자</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-policy">
+                    <h3>정책 현황</h3>
+                    <ul>
+                        <li><span class="policy-year">2026년</span> 로봇과 드론을 이용한 무인 배송 서비스 상용화 추진</li>
+                        <li><span class="policy-year">2025년</span> 9개 지방도시를 드론 시범도시로 지정하여 대규모 상업비행 계획</li>
+                    </ul>
+                    <p>현행 규제 체계에서는 도심 내 드론 비행 제한, 자율주행 로봇의 보도 주행 제한 등으로 인해 실현이 어렵습니다. <strong>규제 샌드박스를 통한 실증으로 안전성과 효율성을 검증하고 점진적으로 규제를 개선</strong>한다면 혁신적인 물류 시스템으로 발전할 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+        <!-- 현황 및 문제점 섹션 -->
+        <section class="problems-section" id="problems">
+            <h2>현황 및 문제점</h2>
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="current-status">현재 배송 시스템</button>
+                    <button class="tab-btn" data-tab="regulations">현행 제도 및 규제</button>
+                    <button class="tab-btn" data-tab="technical-issues">기술적 문제점</button>
+                    <button class="tab-btn" data-tab="infrastructure-issues">인프라 문제점</button>
+                    <button class="tab-btn" data-tab="social-economic-issues">사회경제적 문제점</button>
+                </div>
+                
+                <div class="tab-content active" id="current-status">
+                    <h3>현재 배송 시스템의 현황</h3>
+                    <div class="status-data">
+                        <div class="data-card">
+                            <div class="data-icon"><i class="fas fa-box"></i></div>
+                            <h4>국내 택배 물량</h4>
+                            <div class="data-value">51.5억 개</div>
+                            <div class="data-year">2023년</div>
+                            <div class="data-growth">전년 대비 22.45% 증가</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <h4>택배 건수 최다 지역</h4>
+                            <div class="data-value">44.8만 건</div>
+                            <div class="data-location">서울 관악구 신림동</div>
+                            <div class="data-period">월 평균</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-icon"><i class="fas fa-robot"></i></div>
+                            <h4>국내 자율주행 배송 로봇</h4>
+                            <div class="data-status">대학 캠퍼스, 아파트 단지, 상업시설 등에서 제한적 운영</div>
+                        </div>
+                        <div class="data-card">
+                            <div class="data-icon"><i class="fas fa-plane"></i></div>
+                            <h4>국내 드론 배송</h4>
+                            <div class="data-status">도서산간 지역 중심의 시범 서비스 진행 중</div>
+                            <div class="data-note">상용화 수준에는 미달</div>
+                        </div>
+                    </div>
+                    
+                    <div class="global-cases">
+                        <h4>해외 사례</h4>
+                        <div class="case-container">
+                            <div class="case-item">
+                                <div class="case-logo">Google Wing</div>
+                                <p>미국, 유럽, 호주 시장에서 총 30만 건 이상의 드론 배송 완료</p>
+                            </div>
+                            <div class="case-item">
+                                <div class="case-logo">메이투안</div>
+                                <p>2024년 12월 기준 40만 건 이상의 배송 완료, 홍콩까지 서비스 확장</p>
+                            </div>
+                            <div class="case-item">
+                                <div class="case-logo">아마존</div>
+                                <p>Scout(지상 자율주행 로봇)과 Prime Air(드론 배송) 병행 개발</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="regulations">
+                    <h3>현행 제도 및 규제 현황</h3>
+                    <div class="regulation-cards">
+                        <div class="regulation-card">
+                            <h4>자율주행 배송 로봇 관련 규제</h4>
+                            <ul>
+                                <li>「도로교통법」 - 자율주행 배송 로봇에 대한 명확한 정의와 주행 규정 부재</li>
+                                <li>보도 주행에 제약 존재</li>
+                                <li>생활물류법상 화물차·이륜차로 제한된 생활물류 운수단 정의</li>
+                            </ul>
+                        </div>
+                        <div class="regulation-card">
+                            <h4>드론 배송 관련 규제</h4>
+                            <ul>
+                                <li>「항공안전법」 - 드론의 비행금지구역 및 인구밀집지역 상공 비행 제한</li>
+                                <li>「항공안전법 시행규칙」 - 조종자의 가시권 내 비행만 허용</li>
+                                <li>드론 산업 발전 저해 규제 총 35건 존재</li>
+                            </ul>
+                        </div>
+                        <div class="regulation-card">
+                            <h4>규제 개선 동향</h4>
+                            <ul>
+                                <li>생활물류법 개정 추진 중 - 로봇·드론 등 첨단 모빌리티를 생활물류 운수단에 포함</li>
+                                <li>드론 분류기준 정비 및 네거티브 방식으로 규제 최소화 방향성</li>
+                                <li>「드론 활용의 촉진 및 기반조성에 관한 법률」 제정(2023년)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="technical-issues">
+                    <h3>기술적 문제점</h3>
+                    <div class="issues-grid">
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-battery-quarter"></i></div>
+                            <h4>배터리 및 주행거리 한계</h4>
+                            <ul>
+                                <li>드론 비행 시간: 일반적으로 5분~25분으로 매우 짧음</li>
+                                <li>배송 로봇: 배터리 용량과 주행거리에 제약</li>
+                                <li>광범위한 배송 서비스 제공에 한계</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-cloud-rain"></i></div>
+                            <h4>악천후 대응 능력</h4>
+                            <ul>
+                                <li>드론: 강풍, 폭우, 폭설 등 기상 조건에 취약</li>
+                                <li>로봇: 눈이 쌓인 보도나 빗길에서 주행 성능 저하</li>
+                                <li>안정적 서비스 제공 어려움</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-eye-slash"></i></div>
+                            <h4>인지 및 회피 기술 한계</h4>
+                            <ul>
+                                <li>자율주행 로봇의 신호등 인지 시 높은 에러율</li>
+                                <li>조도 변화에 대응 어려움</li>
+                                <li>복잡한 도심 환경에서 충돌 회피 기술 미완성</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-link-slash"></i></div>
+                            <h4>로봇-드론 간 연계 기술 부재</h4>
+                            <ul>
+                                <li>두 기기 간 효율적 물품 이송 인터페이스 부재</li>
+                                <li>표준화된 통신 프로토콜 부재</li>
+                                <li>드론의 건물 내부 접근 불가능 문제</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="infrastructure-issues">
+                    <h3>인프라 문제점</h3>
+                    <div class="issues-grid">
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-helicopter"></i></div>
+                            <h4>드론 이착륙장 부족</h4>
+                            <ul>
+                                <li>도심 내 드론 이착륙이 가능한 공간 제한적</li>
+                                <li>건물 옥상 등을 활용할 수 있는 제도적 장치 미비</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-charging-station"></i></div>
+                            <h4>충전 인프라 부족</h4>
+                            <ul>
+                                <li>배송 로봇과 드론의 지속적 운영을 위한 도심 내 충전 인프라 미비</li>
+                                <li>배터리 교체(스왑) 시스템 부재</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-location-crosshairs"></i></div>
+                            <h4>정밀 측위 시스템 미비</h4>
+                            <ul>
+                                <li>고정밀 GPS나 로컬라이제이션 기술을 지원하는 도시 인프라 부족</li>
+                                <li>정확한 위치 파악에 어려움</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-wifi"></i></div>
+                            <h4>통신 인프라 부족</h4>
+                            <ul>
+                                <li>로봇과 드론의 실시간 통신을 지원하는 5G/6G 네트워크 커버리지 부족</li>
+                                <li>저지연 통신망 미구축</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="social-economic-issues">
+                    <h3>사회경제적 문제점</h3>
+                    <div class="issues-grid">
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-hard-hat"></i></div>
+                            <h4>고용 대체 우려</h4>
+                            <ul>
+                                <li>기존 배달원 및 택배 기사의 일자리가 자동화로 대체될 것이라는 사회적 우려</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-coins"></i></div>
+                            <h4>초기 투자 비용</h4>
+                            <ul>
+                                <li>로봇과 드론 도입, 관련 인프라 구축에 필요한 초기 투자 비용이 높음</li>
+                                <li>운영 및 유지보수 비용 부담</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-users"></i></div>
+                            <h4>사회적 수용성</h4>
+                            <ul>
+                                <li>새로운 배송 방식에 대한 대중의 신뢰와 수용도가 아직 낮은 수준</li>
+                                <li>소음 및 프라이버시 침해 우려</li>
+                            </ul>
+                        </div>
+                        <div class="issue-card">
+                            <div class="issue-icon"><i class="fas fa-balance-scale"></i></div>
+                            <h4>보험 및 책임 소재</h4>
+                            <ul>
+                                <li>사고 발생 시 책임 소재와 보상 체계가 명확하지 않음</li>
+                                <li>서비스 제공자의 위험 부담 증가</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 개선방안 섹션 -->
+        <section class="solutions-section" id="solutions">
+            <h2>개선방안</h2>
+            
+            <div class="solution-container">
+                <h3>복합 배송 시스템 구성 및 작동 원리</h3>
+                
+                <div class="system-components">
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-plane"></i></div>
+                        <h4>배송 드론 시스템</h4>
+                        <ul>
+                            <li>수직이착륙(VTOL) 하이브리드 드론</li>
+                            <li>5-10kg 적재 용량, 최대 20km 비행 반경</li>
+                            <li>자동 충전 및 물품 이송 시스템 탑재</li>
+                            <li>악천후 감지 및 우회 비행 알고리즘</li>
+                        </ul>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-robot"></i></div>
+                        <h4>자율주행 배송 로봇 시스템</h4>
+                        <ul>
+                            <li>6륜 구동 전기 자율주행 로봇</li>
+                            <li>보도 및 횡단보도 주행에 최적화된 설계</li>
+                            <li>최대 30kg 적재 용량, 최대 5km 운행 반경</li>
+                            <li>보행자 인식 및 회피 알고리즘 탑재</li>
+                        </ul>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-store-alt"></i></div>
+                        <h4>마이크로 허브 및 드론 스테이션</h4>
+                        <ul>
+                            <li>도심 내 건물 옥상, 공원, 주차장 등에 설치</li>
+                            <li>자동화된 화물 이송 시스템 구비</li>
+                            <li>드론 및 로봇 동시 충전 인프라 제공</li>
+                            <li>소형 분류 시스템으로 물품 중계 기능</li>
+                        </ul>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-server"></i></div>
+                        <h4>통합 관제 시스템</h4>
+                        <ul>
+                            <li>AI 기반 실시간 배송 경로 최적화</li>
+                            <li>드론-로봇 간 연계 스케줄링</li>
+                            <li>기상 조건에 따른 자동 운행 모드 전환</li>
+                            <li>교통 상황 및 수요 예측 기반 자원 배분</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="delivery-process">
+                    <h4>배송 프로세스 흐름</h4>
+                    <div class="process-flow">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h5>주문 접수 및 경로 계획</h5>
+                                <p>고객 주문 접수 후 AI 시스템이 최적 배송 방식과 경로 결정</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h5>물류 센터에서 마이크로 허브로 이동</h5>
+                                <p>드론을 통해 도심 내 마이크로 허브로 물품 이동</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h5>로봇을 통한 라스트마일 배송</h5>
+                                <p>마이크로 허브에서 로봇이 최종 목적지까지 배송</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h5>회수 및 재배치</h5>
+                                <p>배송 완료 후 로봇과 드론의 위치 자동 재배치</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-container">
+                <h3>규제 개선 방안</h3>
+                
+                <div class="regulation-improvements">
+                    <div class="improvement-card">
+                        <h4>자율주행 로봇 관련 규제 개선</h4>
+                        <ul>
+                            <li>「도로교통법」에 '무인 배송 로봇'의 법적 정의 신설</li>
+                            <li>보도 통행 및 횡단보도 이용에 관한 특례 조항 신설</li>
+                            <li>제한속도, 크기, 중량 등 안전 기준 명시</li>
+                            <li>2026년부터 정부가 추진 중인 무인 배송 서비스 상용화 계획과 연계</li>
+                        </ul>
+                    </div>
+                    <div class="improvement-card">
+                        <h4>드론 배송 관련 규제 개선</h4>
+                        <ul>
+                            <li>「항공안전법」에 소형 상업용 드론의 도심 비행 허용 특례 조항 신설</li>
+                            <li>안전성 검증된 특정 모델에 한해 인구밀집지역 비행 허용</li>
+                            <li>시각선 외 비행(BVLOS) 허용 범위 확대</li>
+                            <li>드론 전용 비행 회랑(Drone Corridor) 지정 및 운영</li>
+                        </ul>
+                    </div>
+                    <div class="improvement-card">
+                        <h4>복합 배송 시스템 특화 규제 정비</h4>
+                        <ul>
+                            <li>드론-로봇 연계 지점(마이크로 허브, 드론 스테이션) 설치 기준 마련</li>
+                            <li>드론과 로봇 간 화물 이송 인터페이스 표준화</li>
+                            <li>통합 관제 시스템 보안 및 안전 기준 수립</li>
+                            <li>복합 배송 시스템 전용 규제 샌드박스 지정</li>
+                            <li>단계적 실증 허용(교외 → 준도심 → 도심 순)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="solution-container">
+                <h3>단계적 실증 및 확산 전략</h3>
+                
+                <div class="implementation-plan">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-phase">Phase 1</div>
+                            <div class="timeline-content">
+                                <h4>제한구역 실증 (1년)</h4>
+                                <p>대학 캠퍼스, 대형 아파트 단지 등 통제된 환경</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-phase">Phase 2</div>
+                            <div class="timeline-content">
+                                <h4>교외지역 실증 (1년)</h4>
+                                <p>인구 밀도가 낮은 교외 주거지역, 신도시 등</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-phase">Phase 3</div>
+                            <div class="timeline-content">
+                                <h4>도심지역 확대 (2년)</h4>
+                                <p>일반 도심 주거 및 상업 지역</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stakeholders">
+                        <h4>이해관계자 협력 체계</h4>
+                        <div class="stakeholders-grid">
+                            <div class="stakeholder-group">
+                                <div class="stakeholder-icon"><i class="fas fa-landmark"></i></div>
+                                <p>중앙정부, 지방정부</p>
+                            </div>
+                            <div class="stakeholder-group">
+                                <div class="stakeholder-icon"><i class="fas fa-building"></i></div>
+                                <p>민간 기업</p>
+                            </div>
+                            <div class="stakeholder-group">
+                                <div class="stakeholder-icon"><i class="fas fa-flask"></i></div>
+                                <p>연구기관</p>
+                            </div>
+                            <div class="stakeholder-group">
+                                <div class="stakeholder-icon"><i class="fas fa-users"></i></div>
+                                <p>주민 참여형 실증 사업</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 기대효과 섹션 -->
+        <section class="benefits-section" id="benefits">
+            <h2>기대효과</h2>
+            
+            <div class="benefits-container">
+                <div class="benefits-group economic">
+                    <h3>경제적 효과</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-dollar-sign"></i></div>
+                            <h4>물류 비용 절감</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">30-35%</span>
+                                    <span class="metric-label">절감</span>
+                                </div>
+                            </div>
+                            <p>라스트마일 배송 비용 30-35% 절감<br>(기존 3,000원 → 약 2,000원)</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4>배송 효율성 향상</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">40%</span>
+                                    <span class="metric-label">처리량 증가</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">70%</span>
+                                    <span class="metric-label">재배송률 감소</span>
+                                </div>
+                            </div>
+                            <p>기존 대비 배송 처리량 40% 증가 및 재배송률 70% 감소</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-industry"></i></div>
+                            <h4>신산업 창출</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">1조원+</span>
+                                    <span class="metric-label">시장 형성</span>
+                                </div>
+                            </div>
+                            <p>배송용 드론 및 로봇 제조, 관제 시스템, 서비스 등 연간 1조원 이상 시장 형성</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-briefcase"></i></div>
+                            <h4>일자리 창출</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">15,000+</span>
+                                    <span class="metric-label">신규 일자리</span>
+                                </div>
+                            </div>
+                            <p>시스템 운영, 모니터링, 유지보수 등 신규 일자리 약 15,000개 창출</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefits-group social">
+                    <h3>사회적 효과</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-shipping-fast"></i></div>
+                            <h4>서비스 품질 향상</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">60%</span>
+                                    <span class="metric-label">배송 시간 단축</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">95%+</span>
+                                    <span class="metric-label">정시 배송률</span>
+                                </div>
+                            </div>
+                            <p>배송 시간 60% 단축, 정시 배송률 95% 이상 달성</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+                            <h4>24시간 배송 서비스</h4>
+                            <p>무인 시스템 활용으로 심야 및 주말에도 중단 없는 배송 서비스</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-leaf"></i></div>
+                            <h4>탄소 배출 저감</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">50%</span>
+                                    <span class="metric-label">배출량 감소</span>
+                                </div>
+                            </div>
+                            <p>배송 건당 탄소 배출량 약 50% 감소<br>(기존 0.5kg CO₂ → 0.25kg CO₂)</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-traffic-light"></i></div>
+                            <h4>교통 혼잡 완화</h4>
+                            <div class="benefit-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">15%</span>
+                                    <span class="metric-label">교통 체증 완화</span>
+                                </div>
+                            </div>
+                            <p>도심 내 배송 차량 감소로 인한 교통 체증 15% 완화</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefits-group national">
+                    <h3>국가 경쟁력 강화</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-globe-asia"></i></div>
+                            <h4>글로벌 기술 선도</h4>
+                            <p>드론-로봇 연계 기술 관련 국제 특허 출원 및 표준화 주도</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-award"></i></div>
+                            <h4>물류 혁신 모델 선도</h4>
+                            <p>K-물류 모델로서 한국형 복합 배송 시스템의 글로벌 인지도 향상</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-calendar-check"></i></div>
+                            <h4>2026년 무인 배송 서비스</h4>
+                            <p>정부의 2026년 무인 배송 서비스 상용화 계획 성공적 실현</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon"><i class="fas fa-temperature-low"></i></div>
+                            <h4>2050 탄소중립 기여</h4>
+                            <p>물류 부문 탄소 배출량 연간 2% 감소로 2050 탄소중립 목표 달성에 기여</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 결론 섹션 -->
+        <section class="conclusion-section" id="conclusion">
+            <h2>결론</h2>
+            <div class="conclusion-content">
+                <p class="highlight-text">자율주행 배송 로봇과 드론을 결합한 복합 배송 시스템은 각 기술의 장점을 극대화하고 단점을 상호 보완하여 기존 배송 시스템의 한계를 뛰어넘는 혁신적인 솔루션입니다.</p>
+                
+                <div class="key-points">
+                    <div class="key-point">
+                        <div class="point-icon"><i class="fas fa-chart-pie"></i></div>
+                        <div class="point-content">
+                            <h4>경제적 가치</h4>
+                            <p>라스트마일 배송 비용 30% 이상 절감, 5년간 약 2조원의 시장 규모 성장, 45,000개 이상의 일자리 창출</p>
+                        </div>
+                    </div>
+                    <div class="key-point">
+                        <div class="point-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="point-content">
+                            <h4>환경적 가치</h4>
+                            <p>탄소 배출량 50% 감소, 연간 CO₂ 배출량 12만 톤 감소, 2050 탄소중립 목표 달성에 기여</p>
+                        </div>
+                    </div>
+                    <div class="key-point">
+                        <div class="point-icon"><i class="fas fa-users"></i></div>
+                        <div class="point-content">
+                            <h4>사회적 가치</h4>
+                            <p>배송 시간 60% 단축, 정시 배송률 95% 이상 달성, 물류 취약계층 서비스 개선</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="conclusion-call-to-action">
+                    <p>성공적 구현을 위해서는 규제 샌드박스를 통한 단계적 실증, 관련 법규의 정비, 인프라 구축, 기술 개발 촉진을 위한 정책적 지원이 필요합니다. 정부, 기업, 연구기관, 지역사회가 협력하여 추진한다면, <strong>한국이 글로벌 스마트 물류 혁신을 선도하는 국가로 도약할 수 있을 것입니다.</strong></p>
+                </div>
+                
+                <div class="conclusion-policy-connection">
+                    <div class="policy-badge">2025</div>
+                    <p>9개 드론 시범도시 지정 및 대규모 상업비행 계획</p>
+                    <div class="policy-badge">2026</div>
+                    <p>로봇과 드론을 이용한 무인 배송 서비스 상용화</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>기획형 모빌리티 규제샌드박스 대국민 아이디어 공모전</p>
+            <div class="submission-info">
+                <p>2025년 4월</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="back_to_top.js"></script>
+    <script src="section_nav.js"></script>
+    <script src="sticky_nav.js"></script>
+    <script src="header.js"></script>
+</body>
+</html>

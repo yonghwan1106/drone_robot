@@ -1,0 +1,24 @@
+/* JavaScript로 제어하는 스타일 */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* 아이콘 수정 */
+.fa-drone-alt:before {
+    content: "\f85f"; /* 일반 드론 아이콘 */
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa-helicopter-symbol:before {
+    content: "\f5c6"; /* 헬리콥터 아이콘으로 대체 */
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa-user-hard-hat:before {
+    content: "\f82c"; /* 건설 작업자 아이콘으로 대체 */
+    font-family: "Font Awesome 5 Free";
+}
